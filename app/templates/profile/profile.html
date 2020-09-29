@@ -38,9 +38,9 @@
         {%if user.bio%}
         <p>{{user.bio}}</p>
         {%else%}
-        <p>I am {{user.username}} and I don't have a Bio yet! </p>
+        <p>I am {{user.username}} and I will update bio soon!! </p>
         {%endif%}
-        <p><a class="btn btn-success" href="{{url_for('profile.updatebio', uname = user.username)}}">Update Bio</a></p>
+        <p><a class="btn btn-danger" href="{{url_for('profile.updatebio', uname = user.username)}}">Update Bio!!</a></p>
     </div>
 </div>
 {%endblock%}

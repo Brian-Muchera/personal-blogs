@@ -59,3 +59,6 @@ nav{
     border-radius: 20px;
     box-shadow: 5px 5px 50px rgb(141, 40, 40);
 }
+.sub{
+    background-image: url("../static/photos/photo-1.jpeg");
+}
