@@ -1,4 +1,4 @@
-# Bloggin application
+# Blog-App
 
 ####  This application allows one to blog, view other people's blogs, comment on them.
 
