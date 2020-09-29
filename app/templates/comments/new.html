@@ -6,8 +6,10 @@
 {{super()}}
 <link rel="stylesheet" href="{{url_for('static', filename ='blogs.css')}}">
 {%endblock%}
-<div class="form bg-success newcomment">
+<div class="new">
+<div class="form bg-primary newcomment">
 {{wtf.quick_form(form)}}
+</div>
 </div>
 
 {%endblock%}
