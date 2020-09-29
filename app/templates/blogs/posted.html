@@ -6,9 +6,10 @@
 {{super()}}
 <link rel="stylesheet" href="{{url_for('static', filename ='blogs.css')}}">
 {%endblock%}
-
+<div class="jumbotron">
 <p class="subscriber"><a href="{{url_for('blogs.subscribe')}}">Click here</a> to subscibe for notifications on new blogs
 </p>
+</div>
 <div class="heading">
    <hr>
    <h1 class="pagetitle">Blogs</h1>
