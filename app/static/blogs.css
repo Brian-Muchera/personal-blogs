@@ -64,4 +64,5 @@ nav{
 }
 .new{
     background-image: url("../static/assets/photo-1.jpeg");
+    font-family: 'Amatic SC', cursive;  
 }
