@@ -1,0 +1,26 @@
+img{
+    width: 70%;
+    height: 50vh;
+    border-radius: 100%;
+    margin: 3%;
+}
+
+.bio{
+    color: rgb(145, 72, 72);
+    width: 30%;
+    height: 40vh;
+    margin: 0%;
+    margin-left: 5%;
+    margin-top: 5%;
+    padding: 2%;
+}
+
+.form{
+    margin: 5%;
+}
+
+.back{
+    
+    margin: 2%;
+    font-style: oblique;
+}

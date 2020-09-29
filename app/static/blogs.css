@@ -1,0 +1,61 @@
+.blogs{
+    margin: 2%;
+    padding: 5%;
+}
+.delete{
+    text-align: center;
+    width: 100%;
+}
+
+.pagetitle{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+    color: rgb(221, 185, 24);
+}
+
+.heading{
+    margin: 2%;
+}
+
+.comment{
+    padding: 1%;
+}
+
+.subscriber{
+    font-style: oblique;
+    margin: 1%;
+}
+
+.subscriber a{
+    color: rgb(211, 125, 27);
+}
+
+.form{
+    margin: 4%;
+}
+
+nav{
+    color: rgb(136, 96, 96);
+}
+
+.newblog{
+    padding: 3%;
+    margin: 7%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px rgb(168, 40, 40);
+}
+
+.newcomment{
+    padding: 3%;
+    margin: 7%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px rgb(131, 37, 37);
+}
+
+.subscribe{
+    padding: 2%;
+    margin: 7%;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px rgb(141, 40, 40);
+}
