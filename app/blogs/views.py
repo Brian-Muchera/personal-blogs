@@ -1,7 +1,7 @@
 from flask import render_template,redirect, url_for,flash
 from .forms import Blog, NewComment, Subscribe
 from . import blogs
-from ..models import Blogs,Comment, Subscriber
+from ..models import Blogs, Comment, Subscriber
 from .. import db
 from ..request import load_quote
 from flask_login import login_required
@@ -114,8 +114,3 @@ def deleteblog(blog_id):
 def updateblog(blog_id):
 
     Blog.query.filter_by(id = blog_id).first()
-    
-
-
-
-
