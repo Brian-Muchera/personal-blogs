@@ -16,7 +16,7 @@ def load_quote():
             quote_displayed = Quotes(author,quote)
     except:
             author = 'Brian-Muchera'
-            quote = 'For Every Problem There is A solution'
+            quote = 'Dont rush my friend kuwa mjanja!!'
 
             quote_displayed = Quotes(author,quote)
 

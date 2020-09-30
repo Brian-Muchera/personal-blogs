@@ -20,6 +20,6 @@ class Subscribe(FlaskForm):
 class UpdateBlog(FlaskForm):
 
     
-    body = StringField('Enter the update bellow')
+    body = StringField('Enter the update below')
     
     
